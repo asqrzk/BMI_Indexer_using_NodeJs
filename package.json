@@ -4,6 +4,7 @@
   "description": "a bmi indexed/classifier using nodeJs",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "cross-env NODE_ENV=test jest --detectOpenHandles --testTimeout=10000",
     "pretest": "cross-env NODE_ENV=test "
   },
