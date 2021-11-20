@@ -1,0 +1,26 @@
+{
+  "name": "bmi_indexer",
+  "version": "1.0.0",
+  "description": "a bmi indexed/classifier using nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --testTimeout=10000",
+    "pretest": "cross-env NODE_ENV=test "
+  },
+  "author": "asqrzk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
